@@ -6,5 +6,8 @@ export default defineConfig({
   	plugins: [
 		vue(),
 		tailwindcss()
-	]
+	],
+	build: {
+		outDir: 'docs'
+	}
 });
